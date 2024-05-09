@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body>
+    <script>
+        // dateOfBirth
+        let dateOfBirth = "1998";
+        let wordSpace = " ";
+        document.write("მე დავიბადე" + wordSpace + dateOfBirth + wordSpace + "წელს.")
+
+        // sentence
+        document.write(`<br />`);
+        let myNoun = "ძაღლი";
+        let myAdjective = "დიდი";
+        let myVerb = "გაიქცა";
+        let myAdverb = "სწრაფად";
+        document.write(myAdjective + wordSpace + myNoun + wordSpace + myAdverb + wordSpace + myVerb + ".");
+
+        // favColor
+        let color = "red";
+        if (color == "red"){
+            console.log(color + wordSpace + "არის ჩემი საყვარელი ფერი.");
+        }else{
+            console.log(color + wordSpace + "არ მომწონს")
+        }
+
+        // oddEven
+        let number = "2";
+        if (number % 2 ==0) {
+            console.log("არჩეული რიცხვი ლუწია")
+        }else{
+            console.log("არჩეული რიცხვი კენტია");
+        }
+
+        // ageControl
+        document.write(`<br />`);
+        let adult = "თქვენ ხართ სრულწლოვანი.";
+        let under18 = "თქვენ არ ხართ სრულწლოვანი.";
+        let age = prompt("შყვანეთ თქვენი ასაკი:");
+        if (age>=18){
+            document.write(adult)
+        }else{
+            document.write(under18)
+        }
+    </script>
+</body>
+</html>
